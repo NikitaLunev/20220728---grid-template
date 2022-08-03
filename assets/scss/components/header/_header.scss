@@ -2,13 +2,13 @@
 @use "../../mixins" as *;
 
 .header {
-  position: relative;
-  display: flex;
   background-color: $color-primary;
-  background-image: url(../../../img/img-header.png);
+  background-image: url(../img/img-header.png);
   min-height: 100vh;
   color: $color-light;
+  position: relative;
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 150px 0;
+  padding: 10px 0;
 }
