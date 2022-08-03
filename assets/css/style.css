@@ -346,6 +346,7 @@ template {
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  overflow-y: scroll;
 }
 
 body {
@@ -389,6 +390,8 @@ a {
   color: #ffffff;
   background-color: #2d3651;
   background-image: url(../img/img-header.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .header-content {
