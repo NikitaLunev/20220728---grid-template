@@ -1,7 +1,14 @@
 @use "../../libs/normalize.css/normalize";
 
-@use "common/typography";
 @use "common/classes";
+@use "common/typography";
+
+@use "presets/variables";
+@use "presets/skin";
+
+@use "mixins/mixins";
+@use "mixins/mixins-media";
+@use "mixins/extends";
 
 @use "components/header/header";
 @use "components/header/header-content";
